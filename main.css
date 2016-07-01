@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	padding: 20px;
+	padding: 5px;
 }
 
 header .row {
@@ -42,6 +42,5 @@ section .row {
 }
 
 #name {
-	font: Hiragino Sans, sans-serif;
 	font-size: 36px;
 }
