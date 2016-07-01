@@ -44,3 +44,8 @@ section .row {
 #name {
 	font-size: 36px;
 }
+
+p .image {
+	width: 320px;
+	height: 240px;
+}
