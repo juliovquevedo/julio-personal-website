@@ -1,6 +1,6 @@
 body {
-	font-family: "Lato", sans-serif;
-	font-weight: 300;
+	font-family: sans-serif;
+	font-weight: 300px;
 	font-size: 16px;
 }
 
@@ -11,6 +11,10 @@ header {
 header .row {
 	display: flex;
 	align-items: center;
+}
+
+header h1 {
+	font-family: "STHeiti";
 	font-size: 40px;
 }
 
@@ -18,6 +22,7 @@ header nav {
 	display: flex;
 	justify-content: flex-end;
 	font-size: 20px;
+	align-items: right;
 }
 
 header p {
@@ -42,7 +47,8 @@ section .row {
 }
 
 #name {
-	font-size: 36px;
+	font-size: 60px;
+	font-family: "Tsukushi A Round Gothic";
 }
 
 p .image {
@@ -51,5 +57,5 @@ p .image {
 }
 
 .container .row {
-	
+
 }
