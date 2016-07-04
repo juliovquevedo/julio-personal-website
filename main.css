@@ -56,6 +56,6 @@ p .image {
 	height: 240px;
 }
 
-.container .row {
-
+.bold {
+	font-weight: bold;
 }
