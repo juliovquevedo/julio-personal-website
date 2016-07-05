@@ -33,10 +33,10 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url('me11.JPG');
+	background-image: url('me14.png');
 	background-size: cover;
 	color: #ffffff;
-	height: 700px;
+	height: 600px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
 	text-align: right;
 }
@@ -56,6 +56,6 @@ p .image {
 	height: 240px;
 }
 
-.bold {
+span {
 	font-weight: bold;
 }
