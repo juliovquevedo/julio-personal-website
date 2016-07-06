@@ -5,6 +5,7 @@ body {
 }
 
 header {
+	margin-top: 40px;
 	padding: 5px;
 }
 
@@ -16,6 +17,8 @@ header .row {
 header h1 {
 	font-family: "STHeiti";
 	font-size: 40px;
+	text-align: left;
+	justify-content: left;
 }
 
 header nav {
@@ -39,6 +42,11 @@ header p {
 	height: 600px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
 	text-align: right;
+}
+
+section {
+	margin-top: 40px;
+	padding-top: 40px;
 }
 
 section .row {
