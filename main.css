@@ -4,11 +4,6 @@ body {
 	font-size: 16px;
 }
 
-header {
-	margin-top: 40px;
-	padding: 5px;
-}
-
 header .row {
 	display: flex;
 	align-items: center;
@@ -29,8 +24,7 @@ header nav {
 }
 
 header p {
-	padding: 0 20px;
-	margin: 0;
+	padding-left: 30px;
 }
 
 .jumbotron {
@@ -44,10 +38,6 @@ header p {
 	text-align: right;
 }
 
-section {
-	margin-top: 40px;
-	padding-top: 40px;
-}
 
 section .row {
 	border-bottom: 1px solid #000;
@@ -56,7 +46,7 @@ section .row {
 
 #name {
 	font-size: 60px;
-	font-family: "Tsukushi A Round Gothic";
+	font-family: "STHeiti";
 }
 
 p .image {
@@ -66,4 +56,9 @@ p .image {
 
 span {
 	font-weight: bold;
+}
+
+.email {
+	color: #ffffff;
+	font-family: "Tsukushi A Round Gothic";
 }
