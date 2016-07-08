@@ -5,31 +5,45 @@ body {
 	background-image: linear-gradient(to bottom, #969696, #e1e1e1 100%);
 }
 
-header {
-
-}
-
-header .row {
-	display: flex;
-	align-items: center;
-}
-
-header h1 {
-	font-family: "STHeiti";
-	font-size: 40px;
-	text-align: left;
-	justify-content: left;
+header .fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 56px;
+  background-color: #969696;
 }
 
 header nav {
 	display: flex;
-	align-items: right;
+	align-items: top;
 	justify-content: flex-end;
+	padding-right: 10%;
 }
 
-header p {
-	padding-left: 30px;
+ul {
+	list-style-type: none;
 	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #8c8c8c;
 }
 
 .jumbotron {
@@ -39,8 +53,8 @@ header p {
 	background-size: cover;
 	color: #ffffff;
 	height: 700px;
-	text-shadow: 0.25px 0.25px 0.25px #000000;
 	text-align: right;
+	margin-top: 50px;
 }
 
 
@@ -52,12 +66,11 @@ section .row {
 #name {
 	font-size: 60px;
 	font-family: "Tsukushi A Round Gothic";
+	text-shadow: 1px 1px 2px #ffffff;
 }
 
 img {
-	
 	border: 1px solid #000;
-	onmouseover: 'highlight()';
 }
 
 span {
