@@ -48,7 +48,7 @@ li a:hover {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url('cube-copy.jpg');
+	background-image: url('images/cube-copy.jpg');
 	background-size: cover;
 	color: #ffffff;
 	height: 750px;
@@ -86,7 +86,7 @@ span {
 }
 
 .container-resume {
-	background-image: url('007.jpg');
+	background-image: url('images/007.jpg');
 	width: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
