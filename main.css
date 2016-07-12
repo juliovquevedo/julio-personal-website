@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: "STHeiti" sans-serif;
 	font-weight: 300px;
 	font-size: 18px;
 	color: #ffffff;
@@ -66,13 +66,12 @@ section .row {
 }
 
 #name {
-	font-size: 60px;
+	font-size: 64px;
 	font-family: "Tsukushi A Round Gothic";
 	text-shadow: 1px 1px 2px #ffffff;
 }
 
 img {
-	//border: 1px solid #000;
 	border-radius: 5px;
 }
 
@@ -95,4 +94,13 @@ span {
 
 .col-sm-3 {
 	padding-left: 80px;
+}
+
+footer {
+	background-color: #000008;
+	padding-top: 22px;
+}
+
+.col-sm-2 {
+	font-size: 8px;
 }
