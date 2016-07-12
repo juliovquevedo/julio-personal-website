@@ -55,7 +55,9 @@ li a:hover {
 	text-align: right;
 	margin-top: 50px;
 	margin-bottom: 0px;
-
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 section .row {
