@@ -18,7 +18,7 @@ header .fixed-nav-bar {
 header nav {
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 10%;
+	padding-right: 5%;
 }
 
 ul {
@@ -37,12 +37,13 @@ li a {
 	display: block;
 	color: #ffffff;
 	text-align: center;
-	padding: 14px 25px;
+	padding: 14px 15px;
 	text-decoration: none;
 }
 
 li a:hover {
 	background-color: #323232;
+	color: #ffffff;
 }
 
 .jumbotron {
