@@ -10,7 +10,7 @@ body {
 	background-position: center;
 	padding-left: 0px;
 	padding-right: 0px;
-	min-width: 100%;
+	//min-width: 100%;
 }
 
 header .fixed-nav-bar {
@@ -106,6 +106,8 @@ span {
 footer {
 	background-color: #000008;
 	padding-top: 12px;
+	display: block;
+	overflow: auto;
 }
 
 .col-sm-2 {
