@@ -55,7 +55,7 @@ li a:hover {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url('images/cube-copy.jpg');
+	background-image: url('images/moon.jpg');
 	background-size: cover;
 	color: #ffffff;
 	height: 750px;

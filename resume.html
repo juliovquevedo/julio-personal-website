@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Julio Quevedo's R&eacutesum&eacute</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="content1"></div>
+  <div id="content2"></div>
+  
+  <script type="text/jsx">
+
+    var Heading = React.createClass({
+      render: function() {
+        return(
+          <div>
+            <h1>{this.props.user}</h1>
+            <p>{this.props.children}</p>
+            <a href="mailto:juliovquevedo@gmail.com">juliovquevedo@gmail.com</a>
+          </div>
+        );
+      }
+    });
+
+    React.render(
+      <div>
+        <Heading user="Julio Quevedo">3 Murphys Lane Apt 13 | (203)434-4051</Heading>
+      </div>,
+      document.getElementById('content1')
+    );
+
+    var Skills = React.createClass({
+      render: function() {
+        return(
+          <div>
+            <h2>{this.props.user}</h2>
+            <p>{this.props.children}</p>
+          </div>
+        );
+      }
+    });
+
+    React.render(
+      <div>
+        <Skills user="Skills Summary">C, C++, Java, JavaScript, HTML, CSS, Swing, JavaFX</Skills>
+        <Skills user="Education">Computer Engineering -- Expected to Graduate Spring 2018</Skills>
+        <Skills user="Work Experience">John the Baker -- 1991-1999 || Roly Poly Sandwiches -- 1999-present</Skills>
+      </div>,
+      document.getElementById('content2')
+    );
+
+</script>
+</body>
+<html>
