@@ -3,11 +3,11 @@ body {
 	font-weight: 300px;
 	font-size: 18px;
 	color: #ffffff;
-	//width: 100%;
-	background-image: url('images/cube-copy.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	//background-image: url('images/cube-copy.jpg');
+	//background-repeat: no-repeat;
+	//background-attachment: fixed;
+	//background-position: center;
+	background-color: #323232;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -55,8 +55,8 @@ li a:hover {
 .jumbotron {
 	display: flex;
 	align-items: center;
-	background-image: url('images/moon.jpg');
-	background-size: cover;
+	background-image: url('images/cube-copy.jpg');
+	//background-size: cover;
 	color: #ffffff;
 	height: 750px;
 	text-align: right;
@@ -113,9 +113,9 @@ footer {
 	font-size: 10px;
 }
 
-@media (max-width: 320px)
+@media (max-width: 480px)
 {
 	ul {
-		font-size: 16px;
+		font-size: 4vw;
 	}
 }
