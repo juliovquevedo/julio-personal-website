@@ -77,8 +77,35 @@ section .row {
 	text-shadow: 1px 1px 2px #ffffff;
 }
 
-img {
+section#carousel > figure > img {
+	display: none;
+	margin: 0px auto;
 	border-radius: 5px;
+	height: 400px;
+}
+
+section#carousel > figure.visible > img {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	height: 400px;
+}
+
+section#carousel > figure > figcaption {
+	display: none;
+}
+
+section#carousel > figure.visible > figcaption {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.family {
+	text-align: center;
+	letter-spacing: 2px;
 }
 
 span {
@@ -100,6 +127,7 @@ span {
 
 .col-sm-3 {
 	padding-left: 80px;
+	letter-spacing:  2px;
 }
 
 footer {
@@ -111,6 +139,10 @@ footer {
 
 .col-sm-2 {
 	font-size: 10px;
+}
+
+.col-sm-6 {
+	padding-right: 20%;	
 }
 
 @media (max-width: 480px)
